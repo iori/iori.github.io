@@ -6,8 +6,30 @@
     <description>Recent content on Startup Helper</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 17 Apr 2015 09:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2015 03:51:00 +0900</lastBuildDate>
     <atom:link href="http://iori.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>remoru</title>
+      <link>http://iori.github.io/entry/remoru/</link>
+      <pubDate>Sun, 27 Sep 2015 03:51:00 +0900</pubDate>
+      
+      <guid>http://iori.github.io/entry/remoru/</guid>
+      <description>&lt;p&gt;リモートワークを日本に普及するためのサービス、remoruのプロトタイプです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://remoru.herokuapp.com/&#34;&gt;http://remoru.herokuapp.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ヒアリング2時間&lt;/li&gt;
+&lt;li&gt;実装3時間
+
+&lt;ul&gt;
+&lt;li&gt;クローラーの実装2時間&lt;/li&gt;
+&lt;li&gt;Ruby on Railsによる実装、Herokuへのdeploy等1時間&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Hugo on GitHub Pages.</title>
