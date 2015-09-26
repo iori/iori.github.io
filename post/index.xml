@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on iori Blog</title>
+    <title>Posts on Startup Helper</title>
     <link>http://iori.github.io/post/</link>
-    <description>Recent content in Posts on iori Blog</description>
+    <description>Recent content in Posts on Startup Helper</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <lastBuildDate>Fri, 17 Apr 2015 09:00:00 +0900</lastBuildDate>
