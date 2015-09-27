@@ -10,24 +10,53 @@
     <atom:link href="http://iori.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>remoru</title>
+      <title>remoru リモートワークを普及するためのサービス</title>
       <link>http://iori.github.io/entry/remoru/</link>
       <pubDate>Sun, 27 Sep 2015 03:51:00 +0900</pubDate>
       
       <guid>http://iori.github.io/entry/remoru/</guid>
-      <description>&lt;p&gt;リモートワークを日本に普及するためのサービス、remoruのプロトタイプです。&lt;/p&gt;
+      <description>
+
+&lt;p&gt;リモートワークを日本に普及するためのサービス、remoruのプロトタイプを作成しました。&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://remoru.herokuapp.com/&#34;&gt;http://remoru.herokuapp.com/&lt;/a&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;ヒアリング2時間&lt;/li&gt;
-&lt;li&gt;実装3時間
+&lt;h2 id=&#34;総製作時間-5時間:40fc7952413acfaf942b5789bdbab920&#34;&gt;総製作時間 5時間&lt;/h2&gt;
 
-&lt;ul&gt;
-&lt;li&gt;クローラーの実装2時間&lt;/li&gt;
-&lt;li&gt;Ruby on Railsによる実装、Herokuへのdeploy等1時間&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;上記URLで実際に制作したプロトタイプをご覧になることが出来ますが、追加実装等も請け負っている為下記した状態よりも機能等が増えている可能性があります。&lt;/p&gt;
+
+&lt;h3 id=&#34;ヒアリング-2時間:40fc7952413acfaf942b5789bdbab920&#34;&gt;ヒアリング 2時間&lt;/h3&gt;
+
+&lt;p&gt;こちらは自分が参加しているチームのサービスでもあるので、アイディアは先にありました。
+アイディアとしては「リモートワーカーと、リモートワークを導入したい企業の為のサービス」です。&lt;/p&gt;
+
+&lt;p&gt;以下の様な順番で、プロトタイプとして作る部分を決定しました。&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;アイディアを実現するためには、どんなものがあれば良いかブレストで出し合う&lt;/li&gt;
+&lt;li&gt;重要度と実現性を考える&lt;/li&gt;
+&lt;li&gt;今の自分達がすぐに、なるべく手間が掛からず、お金を掛けずに出来て効果的な物は何か？を一つ決める&lt;/li&gt;
+&lt;li&gt;サービス名を考える&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;プロトタイプですので、まずはなるべく小さい物を作りアイディアを検証する必要があります。
+ですので、&lt;strong&gt;「どれだけ作らないか」&lt;/strong&gt;が重要となります。&lt;/p&gt;
+
+&lt;p&gt;今回は「複数の求人サービスの、既存のリモートワークの求人情報を集める」という事になりました。
+これですとクローラーを作れば自動的に情報を収集することが出来、またリモートワークの求人を求めている人にとっても専用サイトがあれば需要があるだろう、という狙いです。&lt;/p&gt;
+
+&lt;h3 id=&#34;実装-3時間:40fc7952413acfaf942b5789bdbab920&#34;&gt;実装 3時間&lt;/h3&gt;
+
+&lt;h4 id=&#34;クローラー-2時間:40fc7952413acfaf942b5789bdbab920&#34;&gt;クローラー 2時間&lt;/h4&gt;
+
+&lt;p&gt;&lt;code&gt;anemone&lt;/code&gt;を利用し、Railsの$unnerで実行出来る様にクローラーを実装しました。
+クローラーの作成は約2時間程で完了しました。&lt;/p&gt;
+
+&lt;h4 id=&#34;収集した情報の一覧機能とherokuへのdeploy:40fc7952413acfaf942b5789bdbab920&#34;&gt;収集した情報の一覧機能とHerokuへのDeploy&lt;/h4&gt;
+
+&lt;p&gt;収集した情報を一覧出来るようにしました。また、&lt;code&gt;kaminari&lt;/code&gt;でページネーションも行っています。&lt;/p&gt;
+
+&lt;p&gt;ここまで出来れば「最低限必要なモノ」が揃ったので、プロトタイプは完成です。後はHerokuにDeployして完成です。&lt;/p&gt;
 </description>
     </item>
     
