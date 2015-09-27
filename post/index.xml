@@ -49,7 +49,7 @@
 
 &lt;h4 id=&#34;クローラー-2時間:40fc7952413acfaf942b5789bdbab920&#34;&gt;クローラー 2時間&lt;/h4&gt;
 
-&lt;p&gt;&lt;code&gt;anemone&lt;/code&gt;を利用し、Railsの$unnerで実行出来る様にクローラーを実装しました。
+&lt;p&gt;&lt;code&gt;anemone&lt;/code&gt;を利用し、RailsのRunnerで実行出来る様にクローラーを実装しました。
 クローラーの作成は約2時間程で完了しました。&lt;/p&gt;
 
 &lt;h4 id=&#34;収集した情報の一覧機能とherokuへのdeploy:40fc7952413acfaf942b5789bdbab920&#34;&gt;収集した情報の一覧機能とHerokuへのDeploy&lt;/h4&gt;
