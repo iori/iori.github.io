@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://iori.github.io/</loc>
-    <lastmod>2015-09-27T03:51:00+09:00</lastmod>
-    <priority>0</priority>
+    <loc>https://iori.github.io/</loc>
+    <lastmod>2016-10-15T07:30:30+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iori.github.io/entry/remoru/</loc>
-    <lastmod>2015-09-27T03:51:00+09:00</lastmod>
+    <loc>https://iori.github.io/projects/</loc>
+    <lastmod>2016-10-15T07:30:30+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://iori.github.io/entry/hugo-on-github-pages/</loc>
+    <loc>https://iori.github.io/about/</loc>
+    <lastmod>2016-10-15T07:30:16+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://iori.github.io/post/Hugo%20on%20GitHub%20Pages/</loc>
     <lastmod>2015-04-17T09:00:00+09:00</lastmod>
   </url>
   

@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Development on Startup Helper</title>
-    <link>http://iori.github.io/categories/development/</link>
-    <description>Recent content in Development on Startup Helper</description>
+    <title>How to become a Hacker.</title>
+    <link>https://iori.github.io/categories/development/index.xml</link>
+    <description>Recent content on How to become a Hacker.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Fri, 17 Apr 2015 09:00:00 +0900</lastBuildDate>
-    <atom:link href="http://iori.github.io/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iori.github.io/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hugo on GitHub Pages.</title>
-      <link>http://iori.github.io/entry/hugo-on-github-pages/</link>
+      <link>https://iori.github.io/post/Hugo%20on%20GitHub%20Pages/</link>
       <pubDate>Fri, 17 Apr 2015 09:00:00 +0900</pubDate>
       
-      <guid>http://iori.github.io/entry/hugo-on-github-pages/</guid>
+      <guid>https://iori.github.io/post/Hugo%20on%20GitHub%20Pages/</guid>
       <description>
 
 &lt;p&gt;hugoでGitHubPagesにBlogを開設する手順のまとめ。&lt;/p&gt;
 
-&lt;h2 id=&#34;github-pages-hugo:efd61839acc3eb91ddd440e2945f5418&#34;&gt;GitHub Pages &amp;amp; Hugo&lt;/h2&gt;
+&lt;h2 id=&#34;github-pages-hugo&#34;&gt;GitHub Pages &amp;amp; Hugo&lt;/h2&gt;
 
 &lt;p&gt;GitHub Pagesは &lt;strong&gt;自分のアカウント名.github.io&lt;/strong&gt; というURLで静的サイトを公開できるサービス。無料！やったね！&lt;/p&gt;
 
@@ -32,7 +31,7 @@
 
 &lt;p&gt;が出来ます。&lt;/p&gt;
 
-&lt;h2 id=&#34;構築手順:efd61839acc3eb91ddd440e2945f5418&#34;&gt;構築手順&lt;/h2&gt;
+&lt;h2 id=&#34;構築手順&#34;&gt;構築手順&lt;/h2&gt;
 
 &lt;p&gt;今回は&lt;/p&gt;
 
@@ -48,7 +47,7 @@
 
 &lt;p&gt;までやります&lt;/p&gt;
 
-&lt;h3 id=&#34;1-hugoのインストール:efd61839acc3eb91ddd440e2945f5418&#34;&gt;1. hugoのインストール&lt;/h3&gt;
+&lt;h3 id=&#34;1-hugoのインストール&#34;&gt;1. hugoのインストール&lt;/h3&gt;
 
 &lt;p&gt;macの場合は&lt;/p&gt;
 
@@ -57,14 +56,14 @@
 
 &lt;p&gt;でインストール出来ます。他のOSの方は、&lt;a href=&#34;https://github.com/spf13/hugo#choose-how-to-install&#34;&gt;こちら&lt;/a&gt;を御覧ください。&lt;/p&gt;
 
-&lt;h3 id=&#34;2-hugoでテンプレートを作成する:efd61839acc3eb91ddd440e2945f5418&#34;&gt;2. hugoでテンプレートを作成する&lt;/h3&gt;
+&lt;h3 id=&#34;2-hugoでテンプレートを作成する&#34;&gt;2. hugoでテンプレートを作成する&lt;/h3&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;$ hugo new site site_name
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;で作成されます。&lt;/p&gt;
 
-&lt;h4 id=&#34;リポジトリの作成:efd61839acc3eb91ddd440e2945f5418&#34;&gt;リポジトリの作成&lt;/h4&gt;
+&lt;h4 id=&#34;リポジトリの作成&#34;&gt;リポジトリの作成&lt;/h4&gt;
 
 &lt;p&gt;次にGitHubで&lt;/p&gt;
 
@@ -84,7 +83,7 @@ $ git commit -am &#39;first commit&#39;
 
 &lt;p&gt;をして下さい。&lt;/p&gt;
 
-&lt;h3 id=&#34;3-テーマを使用する:efd61839acc3eb91ddd440e2945f5418&#34;&gt;3. テーマを使用する&lt;/h3&gt;
+&lt;h3 id=&#34;3-テーマを使用する&#34;&gt;3. テーマを使用する&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/spf13/hugoThemes/#theme-list&#34;&gt;https://github.com/spf13/hugoThemes/#theme-list&lt;/a&gt;
 ここから利用したいテーマを探して下さい。今回は &lt;code&gt;hyde-x&lt;/code&gt;を利用します。hyde-xのリポジトリに移り、SSH Clone URLをコピーし&lt;/p&gt;
@@ -94,7 +93,7 @@ $ git commit -am &#39;first commit&#39;
 
 &lt;p&gt;します。これでthemesにhyde-xがコピーされ、submoduleが登録されます。&lt;code&gt;config.toml&lt;/code&gt;に&lt;code&gt;theme = &amp;quot;hyde-x&amp;quot;&lt;/code&gt;を追記して下さい。追記したらまた&lt;code&gt;git commit&lt;/code&gt;しておきましょう。&lt;/p&gt;
 
-&lt;h3 id=&#34;4-記事を作成する:efd61839acc3eb91ddd440e2945f5418&#34;&gt;4. 記事を作成する&lt;/h3&gt;
+&lt;h3 id=&#34;4-記事を作成する&#34;&gt;4. 記事を作成する&lt;/h3&gt;
 
 &lt;p&gt;次は実際に記事を作成して見ましょう。hugoでは&lt;/p&gt;
 
@@ -115,7 +114,7 @@ title = &amp;quot;example&amp;quot;
 
 &lt;p&gt;のようになります。&lt;code&gt;+++&lt;/code&gt;の下からMardDownで記事を書くことが出来ます。&lt;code&gt;+++&lt;/code&gt;内は設定です。&lt;/p&gt;
 
-&lt;h3 id=&#34;5-slugを利用してurlを変更する:efd61839acc3eb91ddd440e2945f5418&#34;&gt;5. slugを利用してURLを変更する&lt;/h3&gt;
+&lt;h3 id=&#34;5-slugを利用してurlを変更する&#34;&gt;5. slugを利用してURLを変更する&lt;/h3&gt;
 
 &lt;p&gt;slugを指定してURLを変更することが出来ます。これはファイル名がURLになるのを防ぐことができます。&lt;code&gt;example.md&lt;/code&gt;の&lt;code&gt;+++&lt;/code&gt;内に&lt;/p&gt;
 
@@ -130,7 +129,7 @@ title = &amp;quot;example&amp;quot;
 
 &lt;p&gt;と追記して下さい。これで&lt;code&gt;content/post/&lt;/code&gt;以下のファイルは&lt;code&gt;/entry/(ファイル名|slugで指定した文字列&lt;/code&gt;がURLとなります。&lt;/p&gt;
 
-&lt;h3 id=&#34;6-localで表示を確認する:efd61839acc3eb91ddd440e2945f5418&#34;&gt;6. localで表示を確認する&lt;/h3&gt;
+&lt;h3 id=&#34;6-localで表示を確認する&#34;&gt;6. localで表示を確認する&lt;/h3&gt;
 
 &lt;p&gt;ここまで来たらもう少しです。次のコマンドを実行して下さい。&lt;/p&gt;
 
@@ -141,7 +140,7 @@ title = &amp;quot;example&amp;quot;
 
 &lt;p&gt;&lt;code&gt;-w&lt;/code&gt;は、記事が保存されたら自動的にブラウザの内容を更新してくれるので便利です。ここまでで&lt;code&gt;git commit&lt;/code&gt;しておきましょう。&lt;/p&gt;
 
-&lt;h3 id=&#34;deployする:efd61839acc3eb91ddd440e2945f5418&#34;&gt;deployする&lt;/h3&gt;
+&lt;h3 id=&#34;deployする&#34;&gt;deployする&lt;/h3&gt;
 
 &lt;p&gt;deployするにはまず、&lt;code&gt;public/&lt;/code&gt;をgitで新たに管理します。&lt;/p&gt;
 
